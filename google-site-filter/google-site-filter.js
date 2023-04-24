@@ -25,7 +25,7 @@ function search(site) {
     let queryOrig = document.getElementsByName("q")[0].value;
     let queryNow = queryOrig + " site:" + site;
     document.getElementsByName("q")[0].value = queryNow;
-    document.querySelector('button[aria-label="Search"]').click();
+    document.querySelector('button[jsname="Tg7LZd"]').click();
 }
 
 function clear() {
